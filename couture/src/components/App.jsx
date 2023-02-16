@@ -1,8 +1,13 @@
 import React from "react";
-import "./sass/App.sass";
+import Footer from "./Footer";
 
 function App() {
-  return <div>couture</div>;
+  return (
+    <>
+      <div>couture</div>
+      <Footer />
+    </>
+  );
 }
 
 export default App;
