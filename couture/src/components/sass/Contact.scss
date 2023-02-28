@@ -1,0 +1,11 @@
+@import "./Colors.scss";
+
+.heading {
+  height: 25vh;
+  font-weight: bold;
+}
+
+.heading,
+.form-box {
+  background-color: $smoke-white;
+}

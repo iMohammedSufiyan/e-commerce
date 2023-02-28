@@ -1,4 +1,16 @@
+@import "./Colors.scss";
+
 .footer {
-    background-color: "red";
+  background-color: $bg-color;
+  color: $light-gray;
 }
-    
+
+.footer h5 {
+  color: $white;
+}
+
+@media only screen and (max-width: 992px) {
+  .footer .row div .bg-danger {
+    display: hidden;
+  }
+}
